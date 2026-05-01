@@ -1,0 +1,22 @@
+Package: shinytestciexample
+Title: Shiny Application with shinytest CI Integration
+Version: 1.0.0
+Authors@R: person("RStudio", "Team", email = "author@example.com", role = c("aut", "cre"))
+Description: Example Shiny application demonstrating automated testing with shinytest and Travis CI.
+License: MIT
+Imports:
+    shiny,
+    htmltools,
+    jsonlite,
+    magrittr,
+    httr,
+    yaml
+Depends:
+    R (>= 3.4.0)
+Suggests:
+    shinytest,
+    testthat,
+    webdriver
+LinkingTo:
+    Rcpp
+Encoding: UTF-8
